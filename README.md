@@ -11,6 +11,22 @@ A reference implementation demonstrating **100% offline, privacy-first Clinical 
 
 ---
 
+## 📥 Direct APK Downloads
+
+You can download and install the pre-compiled APK directly onto your Android device or emulator:
+
+| Target Device | Download Link | Architecture | Size |
+| :--- | :--- | :--- | :--- |
+| 📱 **Physical Android Phones** | [**Download APK (arm64-v8a)**](release/ohs-edge-demo-arm64-v8a.apk) | `arm64-v8a` | **42 MB** |
+| 💻 **Android Studio Emulators** | [**Download APK (x86_64)**](release/ohs-edge-demo-x86_64.apk) | `x86_64` | **46 MB** |
+
+> **Quick Install via ADB:**
+> ```bash
+> adb install -r release/ohs-edge-demo-arm64-v8a.apk
+> ```
+
+---
+
 ## 📸 In-App Screenshots
 
 | 1. Grounded Protocol Triage | 2. Raw FHIR R4 Bundle Inspector | 3. Filtered FHIR Observation |
